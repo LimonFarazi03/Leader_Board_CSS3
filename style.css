@@ -10,6 +10,9 @@ body{
   font-family: 'Poppins', sans-serif;
   background-color: #F3F1FF;
 }
+h3 {
+  font-size: 18px;
+}
 hr{
    border: 1px solid #D1D1D1;
    margin: 25px 0px;
@@ -87,10 +90,10 @@ main{
 }
 .course{
   Width:252.42px;
-  Height: 269.79px;
+  Height: 255.79px;
   border-radius: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 15px 10px;
+  box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+  padding: 15px 12px;
 }
 .course-info{
   display: flex;
@@ -101,8 +104,11 @@ main{
   text-align: center;
 }
 .course .course-banner img{
-  width: 224px;
-  height: 104px;
+  width: 250px;
+  height: 115px;
+}
+.course-details {
+  margin: 15px 8px 0px 8px;
 }
 .fa-star{
   font-size: 12px;
