@@ -127,3 +127,62 @@ main{
   font-size: 14.69px;
   font-weight: 600;
 }
+
+
+/*>>>>>>>>>>
+ Media Quaries 
+ >>>>>>>>>>>
+*/
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px){
+  .container{
+    width: 100%;
+  }
+  .players, .blogs{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player{
+    flex-direction: column;
+  }
+  .blog{
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+    align-items: center;
+  }
+  .courses{
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+    align-items: center;
+  }
+  .course{
+    text-align: center;
+    Width: 350px;
+    Height: 340px;
+    margin: 0px 0px 15px 35px;
+  }
+  .blog .thambnail img{
+    width: 290px;
+    height: auto;
+  }
+  .blog-info{
+    text-align: center;
+  }
+  .blog-title{
+      font-size: 25px; 
+      padding: 15px 0px 0px 0px;
+  }
+  .section-title{
+    text-align: center;
+    font-size:35px;
+  }
+  .course-details{
+    width: 230px;
+    height: 120px;
+    margin: 15px 0px 0px 60px;
+  }
+  .course-info{
+    margin: 15px 0px 0px 0px;
+  }
+}
